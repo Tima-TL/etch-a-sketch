@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #947474;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: green;
+  border: 1px solid darkgreen;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 50px 0;
+}
+
+button:hover {
+  background-color: #06c806;
+}
+
+.container {
+  border: 1px solid #9a3d3d;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+}
+
+.box {
+  border: 0.1px solid #893636;
+  box-sizing: border-box;
+}
